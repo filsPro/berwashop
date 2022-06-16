@@ -1,0 +1,66 @@
+body{
+	background: #f3f3f3;
+	margin: 0;
+}
+form{
+	width:35%;
+	background: #f1f1f1;
+}
+input{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 8px;
+	text-align: center;
+	color: blue;
+	font-style: italic;
+	border-radius: 5px;
+	border-style: solid;
+	border-bottom: orange;
+}
+input[type="submit"]{
+	background: blue;
+	color: #fff;
+	border-style: solid;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.select{
+	position: relative;
+	top: -150px;
+	left: 500px;
+}
+.table{
+	border-collapse: collapse;
+}
+thead{
+	background: #000099;
+	color: #fff;
+	font-size: 16px;
+	font-style: italic;
+}
+
+
+.delete,.update{
+	text-decoration: none;
+	color: #fff;
+	border-style: solid;
+	border-radius: 9px;
+	font-style: italic;
+	font-size: 18px;
+	padding: 3px;
+	border:none;
+}
+.delete{
+	background: tomato;
+}
+.update{
+	background: blue;
+
+}
+p{
+	font-size: 20px;
+	font-style: italic;
+	font-family: verdana;
+	position: relative;
+	top: 40px;
+}

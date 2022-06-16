@@ -1,0 +1,57 @@
+body{
+	background: #f3f3f3;
+	margin: 0;
+}
+nav{
+	padding: 30px;
+	background-color: #000099;
+}
+
+.logo{
+	text-decoration: none;
+	font-style: sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #fff;
+	font-style: italic;
+	border-style: solid;
+	border-radius: 18px;
+	padding: 8px;
+	border-left-color: grey;
+	border-bottom-color: red;
+	border-right-color: orange;
+	border-top-color: green;
+}
+
+.link,.logout{
+	position: relative;
+	left: 500px;
+	color: #fff;
+	text-decoration: none;
+	font-style: sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	padding-left: 20px;
+}
+.link{
+	color: #fff;
+}
+.link:hover{
+	background: blue;
+	color: #fff;
+	padding: 6px;
+	border-style: solid;
+	border-radius: 17px;
+	border: none;
+}
+.logout{
+	position: relative;
+	left:560px;
+	border-style: solid;
+	border-radius: 17px;
+	padding: 8px;
+	background: tomato;
+	color: #fff;
+	border: none;
+	font-style: italic;
+}
